@@ -7,7 +7,7 @@ v2rayA是一款适用于Windows、macOS和Linux操作系统的开源网络代理
 
 v2rayA 的功能依赖于 V2Ray 内核，所以需要先装内核
 
-V2Ray官方脚本 安装参考：[https://github.com/v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray)
+V2Ray官方脚本 安装参考(需要sudo命令)：[https://github.com/v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray)
 
 Xray官方脚本 安装参考：[https://github.com/XTLS/Xray-install](https://github.com/XTLS/Xray-install)
 
@@ -37,6 +37,7 @@ sudo apt install v2raya
 
 ```
 sudo systemctl start v2raya.service
+使用系统浏览器打开
 ```
 
 部署成功！
